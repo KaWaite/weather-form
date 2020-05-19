@@ -1,4 +1,5 @@
 COREKARA Software Engineer Assignment
+(need to add google geocode api key and Open Weather Map api key in a .env file)
 
 ## Scripts
 
