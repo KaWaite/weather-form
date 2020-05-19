@@ -1,0 +1,124 @@
+.App {
+  margin-top: 70px;
+}
+
+.form {
+  border: 10px solid rgb(223, 223, 223);
+  width: 550px;
+  margin: 0 auto;
+  padding: 3em;
+}
+
+/* post code search bar */
+.search {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  vertical-align: middle;
+  text-align: center;
+}
+
+.search > h4 {
+  flex-grow: 1;
+}
+
+.search > input,
+button {
+  margin: 0 9px;
+  flex-grow: 3;
+  border: 1px solid black;
+  padding: 3px;
+}
+
+input {
+  border-radius: 2px;
+}
+
+button {
+  background: rgb(219, 219, 219);
+  font-weight: bold;
+  border-radius: 4px;
+}
+
+/* 3 day weather forecast */
+.weather > h1,
+h5 {
+  margin: 9px 0;
+}
+
+.three-day-forecast {
+  display: flex;
+}
+
+.forecast {
+  flex-grow: 1;
+  height: 200px;
+  border: 1px solid black;
+  text-align: center;
+  background: rgb(220, 246, 255);
+}
+
+.forecast > p,
+h2 {
+  margin: 0 0 12px 0;
+}
+
+.three-day-forecast > div:nth-child(2) {
+  margin: 0 15px;
+}
+
+.icon {
+  height: 50%;
+}
+
+.bottom {
+  display: flex;
+  height: 250px;
+}
+
+.map-container {
+  flex-grow: 1;
+  margin-right: 7.5px;
+}
+
+.uv-container {
+  flex-grow: 1;
+  margin-left: 7.5px;
+  width: 250px;
+}
+
+.uv {
+  height: Calc(100% - 10px);
+  border: 1px solid lightgrey;
+  border-radius: 5%;
+  padding: 5px;
+  text-align: center;
+  position: relative;
+}
+.uv > h2 {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+.uv-icon {
+  height: 40%;
+  margin: 12px;
+}
+
+.uv-low {
+  background: rgb(178, 233, 178);
+}
+.uv-mod {
+  background: rgb(235, 235, 149);
+}
+.uv-hi {
+  background: rgb(236, 201, 137);
+}
+.uv-vhi {
+  background: rgb(243, 149, 149);
+}
+.uv-ex {
+  background: rgb(204, 150, 204);
+}
