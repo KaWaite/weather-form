@@ -1,5 +1,6 @@
 const express = require("express");
 const app = express();
+const path = require("path");
 const axios = require("axios");
 require("dotenv").config();
 
@@ -47,6 +48,17 @@ app.get("/weather", async (req, res) => {
     });
 });
 // ********** Routes - finish **********
+
+// Static folders
+if (process.env.NODE_ENV === "production") {
+  // Serve any static files
+  app.use(express.static(path.join(__dirname, "client/build")));
+
+  // Handle React routing, return all requests to React app
+  app.get("*", function (req, res) {
+    res.sendFile(path.join(__dirname, "client/build", "index.html"));
+  });
+}
 
 // start server(dev default port 5000)
 app.listen(port, () => {

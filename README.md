@@ -1,9 +1,9 @@
-COREKARA Software Engineer Assignment
+Software Engineer Job Assignment
 (need to add google geocode api key and Open Weather Map api key in a .env file)
 
 ## Scripts
 
-In the project directory(COREKARA_ASSIGNMENT), you can run:
+In the project directory, you can run:
 
 For dependencies:
 
