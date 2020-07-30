@@ -1,5 +1,7 @@
 # Weather App
 
+https://weather-postal-code.herokuapp.com/
+
 Software Engineer Job Assignment
 
 Input a Japanese postal code(can use placeholder for testing). Display 3-day forecast, map of area and UV index and recommendation dependent on index.
