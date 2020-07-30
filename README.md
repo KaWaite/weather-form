@@ -1,7 +1,12 @@
-Software Engineer Job Assignment
-(need to add google geocode api key and Open Weather Map api key in a .env file)
+# Weather App
 
-## Scripts
+Software Engineer Job Assignment
+
+Input a Japanese postal code(can use placeholder for testing). Display 3-day forecast, map of area and UV index and recommendation dependent on index.
+
+## Development/Local
+
+(need to add google geocode api key and Open Weather Map api key in a .env file)
 
 In the project directory, you can run:
 
